@@ -1,2 +1,4 @@
 .env
 Directions.md
+*.pyc
+__pycache__

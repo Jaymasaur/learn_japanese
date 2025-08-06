@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "kanji": "おはようございます",
-    "hiragana": "おはようございます",
+    "kanji": "お はよう ございます",
+    "hiragana": "お はよう ございます",
     "pronounce": "ohayou gozaimasu",
     "english": "Good morning"
   },
@@ -36,8 +36,8 @@
   },
   {
     "id": 6,
-    "kanji": "ありがとうございます",
-    "hiragana": "ありがとうございます",
+    "kanji": "ありがとう ございます",
+    "hiragana": "ありがとう ございます",
     "pronounce": "arigatou gozaimasu",
     "english": "Thank you very much"
   },
@@ -71,8 +71,8 @@
   },
   {
     "id": 11,
-    "kanji": "お願いします",
-    "hiragana": "おねがいします",
+    "kanji": "お 願い します",
+    "hiragana": "お ねがい します",
     "pronounce": "onegai shimasu",
     "english": "Please"
   },
@@ -92,85 +92,85 @@
   },
   {
     "id": 14,
-    "kanji": "お元気ですか？",
-    "hiragana": "おげんきですか？",
+    "kanji": "お 元気 です か ？",
+    "hiragana": "お げんき です か ？",
     "pronounce": "ogenki desu ka?",
     "english": "How are you?"
   },
   {
     "id": 15,
-    "kanji": "元気です",
-    "hiragana": "げんきです",
+    "kanji": "元気 です",
+    "hiragana": "げんき です",
     "pronounce": "genki desu",
     "english": "I'm fine"
   },
   {
     "id": 16,
-    "kanji": "わかります",
-    "hiragana": "わかります",
+    "kanji": "わ か ります",
+    "hiragana": "わ か ります",
     "pronounce": "wakarimasu",
     "english": "I understand"
   },
   {
     "id": 17,
-    "kanji": "わかりません",
-    "hiragana": "わかりません",
+    "kanji": "わ か りません",
+    "hiragana": "わ か りません",
     "pronounce": "wakarimasen",
     "english": "I don’t understand"
   },
   {
     "id": 18,
-    "kanji": "もう一度お願いします",
-    "hiragana": "もういちどおねがいします",
+    "kanji": "もう 一度 お 願い します",
+    "hiragana": "もう いちど お ねがい します",
     "pronounce": "mou ichido onegai shimasu",
     "english": "One more time, please"
   },
   {
     "id": 19,
-    "kanji": "ゆっくり話してください",
-    "hiragana": "ゆっくりはなしてください",
+    "kanji": "ゆっくり 話して ください",
+    "hiragana": "ゆっくり はなして ください",
     "pronounce": "yukkuri hanashite kudasai",
     "english": "Please speak slowly"
   },
   {
     "id": 20,
-    "kanji": "英語を話せますか？",
-    "hiragana": "えいごをはなせますか？",
+    "kanji": "英語 を 話せます か ？",
+    "hiragana": "えいご を はなせます か ？",
     "pronounce": "eigo o hanasemasu ka?",
     "english": "Can you speak English?"
   },
   {
     "id": 21,
-    "kanji": "名前は何ですか？",
-    "hiragana": "なまえはなんですか？",
+    "kanji": "名前は何 です か ？",
+    "hiragana": "なまえ は なん です か ？",
     "pronounce": "namae wa nan desu ka?",
     "english": "What is your name?"
   },
   {
     "id": 22,
-    "kanji": "私の名前は〜です",
-    "hiragana": "わたしのなまえは〜です",
+    "kanji": "私の名前は〜 です",
+    "hiragana": "わたし の なまえ は〜 です",
     "pronounce": "watashi no namae wa ~ desu",
     "english": "My name is ~"
   },
   {
     "id": 23,
-    "kanji": "どこですか？",
-    "hiragana": "どこですか？",
+    "kanji": "どこ です か ？",
+    "hiragana": "どこ です か ？",
     "pronounce": "doko desu ka?",
     "english": "Where is it?"
   },
   {
     "id": 24,
-    "kanji": "いくらですか？",
-    "hiragana": "いくらですか？",
+    "kanji": "いくら です か ？",
+    "hiragana": "いくら です か ？",
     "pronounce": "ikura desu ka?",
     "english": "How much is it?"
   },
   {
     "id": 25,
-    "kanji": "これは何ですか？",
-    "hiragana": "これはなんですか？",
+    "kanji": "これ は何 です か ？",
+    "hiragana": "これ は なん です か ？",
     "pronounce": "kore wa nan desu ka?",
     "english": "What is this?"
   }
