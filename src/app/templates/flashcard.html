@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Practice</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/svg+xml" href="/static/icon.svg">
+    <link rel="apple-touch-icon" href="/static/icon.svg">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.addEventListener('click', function(e) {
+                if (!e.target.classList.contains('pill-btn')) {
+                    document.getElementById('tap-form').submit();
+                }
+            });
+        });
+    </script>
+</head>
+<body class="dark-bg">
+    <div class="flashcard-header">
+        <form method="POST" style="display:inline;">
+            <button type="submit" name="back" class="pill-btn left">&lt; back</button>
+        </form>
+        <form method="POST" style="display:inline; float:right;">
+            <button type="submit" name="home" class="pill-btn right">Home</button>
+        </form>
+    </div>
+    <div class="flashcard-container">
+        <form id="tap-form" method="POST">
+            {% if display_jp %}
+                {% if session['type'] == 'Hiragana' or session['type'] == 'Katakana' %}
+                    <div class="japanese-char kana-char" style="color: #fff;">{{ display_jp }}</div>
+                {% else %}
+                    <div class="japanese-char conversation-char" style="color: #fff;">{{ display_jp }}</div>
+                {% endif %}
+                {% if phase == 1 and display_pronounce %}
+                    <div class="pronounce" style="color: #e0e0e0; font-size: 1.5em; text-align: center; margin-top: 0.5em;">{{ display_pronounce }}</div>
+                {% endif %}
+                {% if phase == 1 and display_romaji %}
+                    <div class="romaji" style="color: #f3f3f3;">{{ display_romaji }}</div>
+                {% endif %}
+            {% endif %}
+        </form>
+    </div>
+    <div class="progress">{{ idx+1 }}/{{ total }}</div>
+</body>
+</html>

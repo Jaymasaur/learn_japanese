@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Flashcards</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/svg+xml" href="/static/icon.svg">
+    <link rel="apple-touch-icon" href="/static/icon.svg">
+</head>
+<body class="dark-bg">
+    <div class="container">
+        <h1 class="title">Japanese Flashcards</h1>
+        <form method="POST" class="form-box">
+            <label for="type">Type:</label>
+            <select name="type" id="type" onchange="this.form.submit()">
+                {% for opt in type_options %}
+                <option value="{{ opt }}" {% if selected_type == opt %}selected{% endif %}>{{ opt }}</option>
+                {% endfor %}
+            </select>
+            <label for="end_at">End At:</label>
+            <select name="end_at" id="end_at">
+                {% for opt in end_options %}
+                <option value="{{ opt }}" {% if selected_end == opt %}selected{% endif %}>{{ opt }}</option>
+                {% endfor %}
+            </select>
+            <div class="method-box">
+                <label></label>
+                <label><input type="radio" name="method" value="Ordered" {% if method == 'Ordered' %}checked{% endif %}> Ordered</label>
+                <label><input type="radio" name="method" value="Random" {% if method == 'Random' %}checked{% endif %}> Random</label>
+            </div>
+            <button type="submit" name="start" class="start-btn">Start Practice</button>
+        </form>
+    </div>
+</body>
+</html>

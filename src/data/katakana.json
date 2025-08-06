@@ -1,0 +1,87 @@
+[
+  { "id": 1, "rowStart": 1, "katakana": "ア", "english": "a" },
+  { "id": 2, "rowStart": 1, "katakana": "イ", "english": "i" },
+  { "id": 3, "rowStart": 1, "katakana": "ウ", "english": "u" },
+  { "id": 4, "rowStart": 1, "katakana": "エ", "english": "e" },
+  { "id": 5, "rowStart": 1, "katakana": "オ", "english": "o" },
+
+  { "id": 6, "rowStart": 2, "katakana": "カ", "english": "ka" },
+  { "id": 7, "rowStart": 2, "katakana": "キ", "english": "ki" },
+  { "id": 8, "rowStart": 2, "katakana": "ク", "english": "ku" },
+  { "id": 9, "rowStart": 2, "katakana": "ケ", "english": "ke" },
+  { "id": 10, "rowStart": 2, "katakana": "コ", "english": "ko" },
+
+  { "id": 11, "rowStart": 3, "katakana": "ガ", "english": "ga" },
+  { "id": 12, "rowStart": 3, "katakana": "ギ", "english": "gi" },
+  { "id": 13, "rowStart": 3, "katakana": "グ", "english": "gu" },
+  { "id": 14, "rowStart": 3, "katakana": "ゲ", "english": "ge" },
+  { "id": 15, "rowStart": 3, "katakana": "ゴ", "english": "go" },
+
+  { "id": 16, "rowStart": 4, "katakana": "サ", "english": "sa" },
+  { "id": 17, "rowStart": 4, "katakana": "シ", "english": "shi" },
+  { "id": 18, "rowStart": 4, "katakana": "ス", "english": "su" },
+  { "id": 19, "rowStart": 4, "katakana": "セ", "english": "se" },
+  { "id": 20, "rowStart": 4, "katakana": "ソ", "english": "so" },
+
+  { "id": 21, "rowStart": 5, "katakana": "ザ", "english": "za" },
+  { "id": 22, "rowStart": 5, "katakana": "ジ", "english": "ji" },
+  { "id": 23, "rowStart": 5, "katakana": "ズ", "english": "zu" },
+  { "id": 24, "rowStart": 5, "katakana": "ゼ", "english": "ze" },
+  { "id": 25, "rowStart": 5, "katakana": "ゾ", "english": "zo" },
+
+  { "id": 26, "rowStart": 6, "katakana": "タ", "english": "ta" },
+  { "id": 27, "rowStart": 6, "katakana": "チ", "english": "chi" },
+  { "id": 28, "rowStart": 6, "katakana": "ツ", "english": "tsu" },
+  { "id": 29, "rowStart": 6, "katakana": "テ", "english": "te" },
+  { "id": 30, "rowStart": 6, "katakana": "ト", "english": "to" },
+
+  { "id": 31, "rowStart": 7, "katakana": "ダ", "english": "da" },
+  { "id": 32, "rowStart": 7, "katakana": "ヂ", "english": "ji" },
+  { "id": 33, "rowStart": 7, "katakana": "ヅ", "english": "zu" },
+  { "id": 34, "rowStart": 7, "katakana": "デ", "english": "de" },
+  { "id": 35, "rowStart": 7, "katakana": "ド", "english": "do" },
+
+  { "id": 36, "rowStart": 8, "katakana": "ナ", "english": "na" },
+  { "id": 37, "rowStart": 8, "katakana": "ニ", "english": "ni" },
+  { "id": 38, "rowStart": 8, "katakana": "ヌ", "english": "nu" },
+  { "id": 39, "rowStart": 8, "katakana": "ネ", "english": "ne" },
+  { "id": 40, "rowStart": 8, "katakana": "ノ", "english": "no" },
+
+  { "id": 41, "rowStart": 9, "katakana": "ハ", "english": "ha" },
+  { "id": 42, "rowStart": 9, "katakana": "ヒ", "english": "hi" },
+  { "id": 43, "rowStart": 9, "katakana": "フ", "english": "fu" },
+  { "id": 44, "rowStart": 9, "katakana": "ヘ", "english": "he" },
+  { "id": 45, "rowStart": 9, "katakana": "ホ", "english": "ho" },
+
+  { "id": 46, "rowStart": 10, "katakana": "バ", "english": "ba" },
+  { "id": 47, "rowStart": 10, "katakana": "ビ", "english": "bi" },
+  { "id": 48, "rowStart": 10, "katakana": "ブ", "english": "bu" },
+  { "id": 49, "rowStart": 10, "katakana": "ベ", "english": "be" },
+  { "id": 50, "rowStart": 10, "katakana": "ボ", "english": "bo" },
+
+  { "id": 51, "rowStart": 11, "katakana": "パ", "english": "pa" },
+  { "id": 52, "rowStart": 11, "katakana": "ピ", "english": "pi" },
+  { "id": 53, "rowStart": 11, "katakana": "プ", "english": "pu" },
+  { "id": 54, "rowStart": 11, "katakana": "ペ", "english": "pe" },
+  { "id": 55, "rowStart": 11, "katakana": "ポ", "english": "po" },
+
+  { "id": 56, "rowStart": 12, "katakana": "マ", "english": "ma" },
+  { "id": 57, "rowStart": 12, "katakana": "ミ", "english": "mi" },
+  { "id": 58, "rowStart": 12, "katakana": "ム", "english": "mu" },
+  { "id": 59, "rowStart": 12, "katakana": "メ", "english": "me" },
+  { "id": 60, "rowStart": 12, "katakana": "モ", "english": "mo" },
+
+  { "id": 61, "rowStart": 13, "katakana": "ヤ", "english": "ya" },
+  { "id": 62, "rowStart": 13, "katakana": "ユ", "english": "yu" },
+  { "id": 63, "rowStart": 13, "katakana": "ヨ", "english": "yo" },
+
+  { "id": 64, "rowStart": 14, "katakana": "ラ", "english": "ra" },
+  { "id": 65, "rowStart": 14, "katakana": "リ", "english": "ri" },
+  { "id": 66, "rowStart": 14, "katakana": "ル", "english": "ru" },
+  { "id": 67, "rowStart": 14, "katakana": "レ", "english": "re" },
+  { "id": 68, "rowStart": 14, "katakana": "ロ", "english": "ro" },
+
+  { "id": 69, "rowStart": 15, "katakana": "ワ", "english": "wa" },
+  { "id": 70, "rowStart": 15, "katakana": "ヲ", "english": "wo" },
+  { "id": 71, "rowStart": 15, "katakana": "ン", "english": "n" }
+]

@@ -1,0 +1,88 @@
+[
+  { "id": 1, "rowStart": 1, "hiragana": "あ", "english": "a" },
+  { "id": 2, "rowStart": 1, "hiragana": "い", "english": "i" },
+  { "id": 3, "rowStart": 1, "hiragana": "う", "english": "u" },
+  { "id": 4, "rowStart": 1, "hiragana": "え", "english": "e" },
+  { "id": 5, "rowStart": 1, "hiragana": "お", "english": "o" },
+
+  { "id": 6, "rowStart": 2, "hiragana": "か", "english": "ka" },
+  { "id": 7, "rowStart": 2, "hiragana": "き", "english": "ki" },
+  { "id": 8, "rowStart": 2, "hiragana": "く", "english": "ku" },
+  { "id": 9, "rowStart": 2, "hiragana": "け", "english": "ke" },
+  { "id": 10, "rowStart": 2, "hiragana": "こ", "english": "ko" },
+
+  { "id": 11, "rowStart": 3, "hiragana": "が", "english": "ga" },
+  { "id": 12, "rowStart": 3, "hiragana": "ぎ", "english": "gi" },
+  { "id": 13, "rowStart": 3, "hiragana": "ぐ", "english": "gu" },
+  { "id": 14, "rowStart": 3, "hiragana": "げ", "english": "ge" },
+  { "id": 15, "rowStart": 3, "hiragana": "ご", "english": "go" },
+
+  { "id": 16, "rowStart": 4, "hiragana": "さ", "english": "sa" },
+  { "id": 17, "rowStart": 4, "hiragana": "し", "english": "shi" },
+  { "id": 18, "rowStart": 4, "hiragana": "す", "english": "su" },
+  { "id": 19, "rowStart": 4, "hiragana": "せ", "english": "se" },
+  { "id": 20, "rowStart": 4, "hiragana": "そ", "english": "so" },
+
+  { "id": 21, "rowStart": 5, "hiragana": "ざ", "english": "za" },
+  { "id": 22, "rowStart": 5, "hiragana": "じ", "english": "ji" },
+  { "id": 23, "rowStart": 5, "hiragana": "ず", "english": "zu" },
+  { "id": 24, "rowStart": 5, "hiragana": "ぜ", "english": "ze" },
+  { "id": 25, "rowStart": 5, "hiragana": "ぞ", "english": "zo" },
+
+  { "id": 26, "rowStart": 6, "hiragana": "た", "english": "ta" },
+  { "id": 27, "rowStart": 6, "hiragana": "ち", "english": "chi" },
+  { "id": 28, "rowStart": 6, "hiragana": "つ", "english": "tsu" },
+  { "id": 29, "rowStart": 6, "hiragana": "て", "english": "te" },
+  { "id": 30, "rowStart": 6, "hiragana": "と", "english": "to" },
+
+  { "id": 31, "rowStart": 7, "hiragana": "だ", "english": "da" },
+  { "id": 32, "rowStart": 7, "hiragana": "ぢ", "english": "ji (alt)" },
+  { "id": 33, "rowStart": 7, "hiragana": "づ", "english": "zu (alt)" },
+  { "id": 34, "rowStart": 7, "hiragana": "で", "english": "de" },
+  { "id": 35, "rowStart": 7, "hiragana": "ど", "english": "do" },
+
+  { "id": 36, "rowStart": 8, "hiragana": "な", "english": "na" },
+  { "id": 37, "rowStart": 8, "hiragana": "に", "english": "ni" },
+  { "id": 38, "rowStart": 8, "hiragana": "ぬ", "english": "nu" },
+  { "id": 39, "rowStart": 8, "hiragana": "ね", "english": "ne" },
+  { "id": 40, "rowStart": 8, "hiragana": "の", "english": "no" },
+
+  { "id": 41, "rowStart": 9, "hiragana": "は", "english": "ha" },
+  { "id": 42, "rowStart": 9, "hiragana": "ひ", "english": "hi" },
+  { "id": 43, "rowStart": 9, "hiragana": "ふ", "english": "fu" },
+  { "id": 44, "rowStart": 9, "hiragana": "へ", "english": "he" },
+  { "id": 45, "rowStart": 9, "hiragana": "ほ", "english": "ho" },
+
+  { "id": 46, "rowStart": 10, "hiragana": "ば", "english": "ba" },
+  { "id": 47, "rowStart": 10, "hiragana": "び", "english": "bi" },
+  { "id": 48, "rowStart": 10, "hiragana": "ぶ", "english": "bu" },
+  { "id": 49, "rowStart": 10, "hiragana": "べ", "english": "be" },
+  { "id": 50, "rowStart": 10, "hiragana": "ぼ", "english": "bo" },
+
+  { "id": 51, "rowStart": 11, "hiragana": "ぱ", "english": "pa" },
+  { "id": 52, "rowStart": 11, "hiragana": "ぴ", "english": "pi" },
+  { "id": 53, "rowStart": 11, "hiragana": "ぷ", "english": "pu" },
+  { "id": 54, "rowStart": 11, "hiragana": "ぺ", "english": "pe" },
+  { "id": 55, "rowStart": 11, "hiragana": "ぽ", "english": "po" },
+
+  { "id": 56, "rowStart": 12, "hiragana": "ま", "english": "ma" },
+  { "id": 57, "rowStart": 12, "hiragana": "み", "english": "mi" },
+  { "id": 58, "rowStart": 12, "hiragana": "む", "english": "mu" },
+  { "id": 59, "rowStart": 12, "hiragana": "め", "english": "me" },
+  { "id": 60, "rowStart": 12, "hiragana": "も", "english": "mo" },
+
+  { "id": 61, "rowStart": 13, "hiragana": "や", "english": "ya" },
+  { "id": 62, "rowStart": 13, "hiragana": "ゆ", "english": "yu" },
+  { "id": 63, "rowStart": 13, "hiragana": "よ", "english": "yo" },
+
+  { "id": 64, "rowStart": 14, "hiragana": "ら", "english": "ra" },
+  { "id": 65, "rowStart": 14, "hiragana": "り", "english": "ri" },
+  { "id": 66, "rowStart": 14, "hiragana": "る", "english": "ru" },
+  { "id": 67, "rowStart": 14, "hiragana": "れ", "english": "re" },
+  { "id": 68, "rowStart": 14, "hiragana": "ろ", "english": "ro" },
+
+  { "id": 69, "rowStart": 15, "hiragana": "わ", "english": "wa" },
+  { "id": 70, "rowStart": 15, "hiragana": "を", "english": "wo" },
+
+  { "id": 71, "rowStart": 16, "hiragana": "ん", "english": "n" }
+]

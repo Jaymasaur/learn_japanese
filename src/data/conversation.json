@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "kanji": "おはようございます",
+    "hiragana": "おはようございます",
+    "pronounce": "ohayou gozaimasu",
+    "english": "Good morning"
+  },
+  {
+    "id": 2,
+    "kanji": "こんにちは",
+    "hiragana": "こんにちは",
+    "pronounce": "konnichiwa",
+    "english": "Hello / Good afternoon"
+  },
+  {
+    "id": 3,
+    "kanji": "こんばんは",
+    "hiragana": "こんばんは",
+    "pronounce": "konbanwa",
+    "english": "Good evening"
+  },
+  {
+    "id": 4,
+    "kanji": "さようなら",
+    "hiragana": "さようなら",
+    "pronounce": "sayounara",
+    "english": "Goodbye"
+  },
+  {
+    "id": 5,
+    "kanji": "ありがとう",
+    "hiragana": "ありがとう",
+    "pronounce": "arigatou",
+    "english": "Thank you"
+  },
+  {
+    "id": 6,
+    "kanji": "ありがとうございます",
+    "hiragana": "ありがとうございます",
+    "pronounce": "arigatou gozaimasu",
+    "english": "Thank you very much"
+  },
+  {
+    "id": 7,
+    "kanji": "すみません",
+    "hiragana": "すみません",
+    "pronounce": "sumimasen",
+    "english": "Excuse me / I'm sorry"
+  },
+  {
+    "id": 8,
+    "kanji": "ごめんなさい",
+    "hiragana": "ごめんなさい",
+    "pronounce": "gomennasai",
+    "english": "I'm sorry"
+  },
+  {
+    "id": 9,
+    "kanji": "はい",
+    "hiragana": "はい",
+    "pronounce": "hai",
+    "english": "Yes"
+  },
+  {
+    "id": 10,
+    "kanji": "いいえ",
+    "hiragana": "いいえ",
+    "pronounce": "iie",
+    "english": "No"
+  },
+  {
+    "id": 11,
+    "kanji": "お願いします",
+    "hiragana": "おねがいします",
+    "pronounce": "onegai shimasu",
+    "english": "Please"
+  },
+  {
+    "id": 12,
+    "kanji": "はじめまして",
+    "hiragana": "はじめまして",
+    "pronounce": "hajimemashite",
+    "english": "Nice to meet you"
+  },
+  {
+    "id": 13,
+    "kanji": "どういたしまして",
+    "hiragana": "どういたしまして",
+    "pronounce": "douitashimashite",
+    "english": "You're welcome"
+  },
+  {
+    "id": 14,
+    "kanji": "お元気ですか？",
+    "hiragana": "おげんきですか？",
+    "pronounce": "ogenki desu ka?",
+    "english": "How are you?"
+  },
+  {
+    "id": 15,
+    "kanji": "元気です",
+    "hiragana": "げんきです",
+    "pronounce": "genki desu",
+    "english": "I'm fine"
+  },
+  {
+    "id": 16,
+    "kanji": "わかります",
+    "hiragana": "わかります",
+    "pronounce": "wakarimasu",
+    "english": "I understand"
+  },
+  {
+    "id": 17,
+    "kanji": "わかりません",
+    "hiragana": "わかりません",
+    "pronounce": "wakarimasen",
+    "english": "I don’t understand"
+  },
+  {
+    "id": 18,
+    "kanji": "もう一度お願いします",
+    "hiragana": "もういちどおねがいします",
+    "pronounce": "mou ichido onegai shimasu",
+    "english": "One more time, please"
+  },
+  {
+    "id": 19,
+    "kanji": "ゆっくり話してください",
+    "hiragana": "ゆっくりはなしてください",
+    "pronounce": "yukkuri hanashite kudasai",
+    "english": "Please speak slowly"
+  },
+  {
+    "id": 20,
+    "kanji": "英語を話せますか？",
+    "hiragana": "えいごをはなせますか？",
+    "pronounce": "eigo o hanasemasu ka?",
+    "english": "Can you speak English?"
+  },
+  {
+    "id": 21,
+    "kanji": "名前は何ですか？",
+    "hiragana": "なまえはなんですか？",
+    "pronounce": "namae wa nan desu ka?",
+    "english": "What is your name?"
+  },
+  {
+    "id": 22,
+    "kanji": "私の名前は〜です",
+    "hiragana": "わたしのなまえは〜です",
+    "pronounce": "watashi no namae wa ~ desu",
+    "english": "My name is ~"
+  },
+  {
+    "id": 23,
+    "kanji": "どこですか？",
+    "hiragana": "どこですか？",
+    "pronounce": "doko desu ka?",
+    "english": "Where is it?"
+  },
+  {
+    "id": 24,
+    "kanji": "いくらですか？",
+    "hiragana": "いくらですか？",
+    "pronounce": "ikura desu ka?",
+    "english": "How much is it?"
+  },
+  {
+    "id": 25,
+    "kanji": "これは何ですか？",
+    "hiragana": "これはなんですか？",
+    "pronounce": "kore wa nan desu ka?",
+    "english": "What is this?"
+  }
+]

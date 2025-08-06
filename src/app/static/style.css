@@ -1,0 +1,153 @@
+body.dark-bg {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #252526;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px #000a;
+    margin-top: 5vh;
+}
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.form-box label {
+    display: block;
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+select, .method-box input[type="radio"] {
+    margin-top: 0.5em;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.5em;
+    font-size: 1em;
+}
+.method-box {
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+.start-btn {
+    display: block;
+    width: 100%;
+    margin: 2em auto 0 auto;
+    padding: 1em;
+    font-size: 1.3em;
+    background: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 2px 8px #000a;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.start-btn:hover {
+    background: #005a9e;
+}
+.flashcard-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #252526;
+    z-index: 10;
+}
+.pill-btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    margin: 0.2em;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #000a;
+    transition: background 0.2s;
+}
+.pill-btn.left {
+    float: left;
+}
+.pill-btn.right {
+    float: right;
+    margin-right: 2em;
+}
+.pill-btn:hover {
+    background: #007acc;
+}
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin-top: 4em;
+}
+.japanese-char,
+.conversation-char {
+    font-size: clamp(1.2em, 7vw, 3em);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    letter-spacing: 0.1em;
+    word-break: keep-all;
+    line-height: 1.1;
+    max-width: 95vw;
+    overflow-wrap: break-word;
+}
+.kana-char {
+    font-size: clamp(6em, 20vw, 30em);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    letter-spacing: 0.1em;
+    word-break: keep-all;
+    line-height: 1.1;
+    max-width: 95vw;
+    overflow-wrap: break-word;
+}
+.romaji {
+    font-size: 2em;
+    color: #d4d4d4;
+    text-align: center;
+    margin-top: 0.5em;
+}
+.progress {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background: #252526;
+    color: #d4d4d4;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    font-size: 1em;
+    box-shadow: 0 2px 8px #000a;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 1em;
+    }
+    .japanese-char,
+    .conversation-char {
+        font-size: clamp(2em, 10vw, 3em);
+    }
+    .kana-char {
+        font-size: clamp(3em, 30vw, 9em);
+    }
+}
