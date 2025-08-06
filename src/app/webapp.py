@@ -47,9 +47,9 @@ def flashcard():
         phase = 0
         return redirect(url_for('home'))
     elif method == 'Random' and request.method == 'POST' and not ('back' in request.form or 'home' in request.form):
-        # Only go to next random item after phase 2
-        if phase < 2:
-            phase += 1
+        # Only two phases: 0 (show JP), 1 (show EN/romaji), then advance
+        if phase == 0:
+            phase = 1
         else:
             import random
             if len(items) > 1:
@@ -91,8 +91,8 @@ def flashcard():
                 session.pop('phase', None)
                 return redirect(url_for('home'))
             else:
-                if phase < 2:
-                    phase += 1
+                if phase == 0:
+                    phase = 1
                 else:
                     if len(items) > 0:
                         idx = (idx + 1) % len(items)
