@@ -1,3 +1,15 @@
+/* Row filter radio buttons inline styling (match method-box) */
+.row-filter-box {
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1em;
+}
+.row-filter-box label {
+    margin: 0;
+}
 body.dark-bg {
     background: #1e1e1e;
     color: #d4d4d4;
@@ -37,6 +49,9 @@ select, .method-box input[type="radio"] {
     margin-top: 1em;
     display: flex;
     gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0em;
 }
 .start-btn {
     display: block;

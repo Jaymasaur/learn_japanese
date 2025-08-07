@@ -25,24 +25,36 @@ def get_end_options(type_, data):
         for item in data:
             rs = item.get('rowStart')
             if rs and rs not in seen:
-                options.append(item['english'])
+                options.append({'value': rs, 'label': item['english']})
                 seen.add(rs)
         return options
 
-def filter_practice_items(type_, data, end_at):
+def filter_practice_items(type_, data, end_at, row_mode='upto'):
     if not data:
         return []
+
     if type_ == 'Conversation':
         end_id = int(end_at)
         return [item for item in data if int(item['id']) <= end_id]
-    else:
-        # Find the rowStart for the selected end_at (which is the 'english' value)
-        end_rowStart = None
-        for item in data:
-            if item['english'] == end_at:
-                end_rowStart = item['rowStart']
-                break
-        if end_rowStart is None:
-            return []
-        # Collect all items with rowStart <= end_rowStart
-        return [item for item in data if item['rowStart'] <= end_rowStart]
+
+    if type_ in ['Hiragana', 'Katakana']:
+        if not end_at:
+            return data
+        # Convert end_at to int for comparison
+        try:
+            end_at_int = int(end_at)
+        except Exception:
+            end_at_int = end_at
+
+        row_starts = [item['rowStart'] for item in data if 'rowStart' in item]
+        if end_at_int not in row_starts:
+            return data
+
+        if row_mode == 'single':
+            # Only include items with the selected rowStart value
+            return [item for item in data if item.get('rowStart') == end_at_int]
+        else:
+            # Include all items with rowStart <= selected row value
+            return [item for item in data if item.get('rowStart') is not None and item.get('rowStart') <= end_at_int]
+
+    return data

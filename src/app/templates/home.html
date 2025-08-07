@@ -18,12 +18,20 @@
                 <option value="{{ opt }}" {% if selected_type == opt %}selected{% endif %}>{{ opt }}</option>
                 {% endfor %}
             </select>
-            <label for="end_at">End At:</label>
+            <label for="end_at">Row:</label>
             <select name="end_at" id="end_at">
                 {% for opt in end_options %}
+                {% if opt.value is defined %}
+                <option value="{{ opt.value }}" {% if selected_end == opt.value|string %}selected{% endif %}>{{ opt.label }}</option>
+                {% else %}
                 <option value="{{ opt }}" {% if selected_end == opt %}selected{% endif %}>{{ opt }}</option>
+                {% endif %}
                 {% endfor %}
             </select>
+            <div class="row-filter-box">
+                <label><input type="radio" name="row_mode" value="upto" {% if row_mode != 'single' %}checked{% endif %}> Up to row</label>
+                <label><input type="radio" name="row_mode" value="single" {% if row_mode == 'single' %}checked{% endif %}> Single row</label>
+            </div>
             <div class="method-box">
                 <label></label>
                 <label><input type="radio" name="method" value="Ordered" {% if method == 'Ordered' %}checked{% endif %}> Ordered</label>

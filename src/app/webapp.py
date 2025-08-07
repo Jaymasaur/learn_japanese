@@ -16,6 +16,7 @@ def home():
     type_options = ['Hiragana', 'Katakana', 'Conversation']
     selected_type = request.form.get('type', 'Hiragana')
     method = request.form.get('method', 'Ordered')
+    row_mode = request.form.get('row_mode', session.get('row_mode', 'upto'))
     data = load_data(selected_type, DATA_DIR)
     end_options = get_end_options(selected_type, data)
     selected_end = request.form.get('end_at', end_options[0] if end_options else None)
@@ -23,18 +24,20 @@ def home():
         session['type'] = selected_type
         session['end_at'] = selected_end
         session['method'] = method
+        session['row_mode'] = row_mode
         session['idx'] = 0
         session['phase'] = 0
         return redirect(url_for('flashcard'))
-    return render_template('home.html', type_options=type_options, end_options=end_options, selected_type=selected_type, selected_end=selected_end, method=method)
+    return render_template('home.html', type_options=type_options, end_options=end_options, selected_type=selected_type, selected_end=selected_end, method=method, row_mode=row_mode)
 
 @app.route('/flashcard', methods=['GET', 'POST'])
 def flashcard():
     type_ = session.get('type', 'Hiragana')
     end_at = session.get('end_at')
     method = session.get('method', 'Ordered')
+    row_mode = session.get('row_mode', 'upto')
     data = load_data(type_, DATA_DIR)
-    items = filter_practice_items(type_, data, end_at)
+    items = filter_practice_items(type_, data, end_at, row_mode=row_mode)
     idx = session.get('idx', 0)
     phase = session.get('phase', 0)
     # Only shuffle once per session, not every request
